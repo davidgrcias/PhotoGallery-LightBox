@@ -1,7 +1,6 @@
 *{
   margin: 0px;
   padding: 0px;
-  box-sizing: border-box;
 }
 
 body{
@@ -20,10 +19,30 @@ h1{
   width: 600px;
   background: white;
   margin: auto;
-  padding: 20px;
-  box-shadow: 0px 0px 3px 3px rgba(0,0,0,.5);
+  padding: 30px;
+  box-shadow: 0px 0px 3px 3px rgba(0,0,0,.3);
+  border-radius: 5px;
 }
 
-span{
+.gallery li span{
   font-family: sans-serif;
+  display: block;
+  width: 120px;
+  height: 120px;
+  background: rgba(200,200,200,.5);
+  border-radius: 50%;
+}
+
+.gallery li{
+  width: 120px;
+  height: 113px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 5px solid #666;
+  float: left;
+  margin-right: 5px;
+}
+
+.clear{
+  clear: both;
 }
